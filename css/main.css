@@ -1,5 +1,5 @@
 .body{
-    background-color: #C4C5C6 ;
+    background-color: #dee0e2 ;
 }
 .main-body{
     width: 1000px;
@@ -12,6 +12,9 @@
    
 
 }
+img{
+    border-radius: 50%;
+}
 .main-tittle{
     margin-top: 25px;
     text-align: center;
@@ -23,7 +26,8 @@
     
 }
 #name{
-    color:black;
+    color:white;
+    margin-top:90px;
 }
 .main-tittle h3{
     margin-top: 0px;
@@ -34,7 +38,7 @@
     
 }
 hr{
-     margin-left: 50px;
+    margin-left: 50px;
     margin-right: 50px;
     border-style: solid;
     border-width: 1px;
