@@ -1,71 +1,90 @@
-.body{
-    background-color: #dee0e2 ;
+.body {
+    background-color: #cacdd0;
 }
-.main-body{
+
+.main-body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #fbfcfc;
+    border-radius: 5px;
+    margin: 10px auto;
     width: 1000px;
-    margin: auto;
-    margin-top: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #FBFCFC ;
+    padding-bottom: 50px;
+}
+
+.card-title{
+    background-color: RGB(189, 189, 189); /* //rgb(184, 181, 181) */;
+    margin-top: 0.3px;
+    padding-right: 15px;
     border-radius: 3px;
-    padding-top: 25px;
-   
+    padding-top:15px;
+    padding-bottom: 10px;
+}
 
-}
-img{
-    border-radius: 50%;
-}
-.main-tittle{
-    margin-top: 25px;
-    text-align: center;
 
-}
-.main-tittle h2{
-    padding-top: 40px;
 
-    
-}
-#name{
-    color:whitesmoke;
-    margin-top:90px;
-}
-.main-tittle h3{
-    margin-top: 0px;
-    padding-top: -20px;
-    padding-bottom: -5px;
-    margin-bottom: 0;
-    color:#ABAFB3;
-    
-}
-hr{
-    margin-left: 50px;
-    margin-right: 50px;
-    border-style: solid;
-    border-width: 1px;
-    background-color: #E1E2E3 ;
- 
-}
-.sub-title{
-    margin-left: 80px;
-
-}
-.sub-title h4{
-    color:#ABAFB3;
-    margin-top: 0px;
-}
-.summary{
-    text-align: center;
-}
-.summary p{
-    margin-top: 0px;
-}
-.section-row{
-    margin-top: 0px;
+.content {
+    position: relative;
+    display: block;
     width: 100%;
+    top: 5px;
+    z-index: 5;
 }
-.section-col{
-    width: 50%;
+ul{
+    text-align: center;
+    list-style-type: none;
 }
-.sec-p1{
+
+.content-card {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+.content-card .description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-card h4 {
+
+    margin-top: 0px;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: 500;
     text-align: right;
+
+
 }
+
+.header {
+    position: relative;
+    display: block;
+    top: 0px;
+    bottom: 25px;
+    background:  #37474F;
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header h3 {
+    color: #fff;
+    text-align: center;
+}
+
+hr {
+    border-width: 2px;
+    background-color: #e1e2e3;
+}
+
