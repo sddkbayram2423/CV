@@ -36,19 +36,19 @@
     z-index: 5;
     cursor: pointer;
 }
-
+.dowload-icon{
+    width: 40px;
+    height: 40px;
+}
+.dowload-text{
+    width: 40px;
+    height: 40px;
+}
 .download-button i {
     margin-right: 5px;
 }
 
-.download-button img {
-    width: 40px;
-    height: 40px;
-}
 
-.download-button span {
-    margin-left: 5px;
-}
 
 .card-title {
     background-color: RGB(189, 189, 189);
